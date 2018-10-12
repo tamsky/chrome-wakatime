@@ -18,6 +18,7 @@
       "jest.js"
     ],
     "scriptPreprocessor": "<rootDir>/node_modules/babel-jest",
+    "testURL": "http://localhost",
     "testDirectoryName": "tests",
     "unmockedModulePathPatterns": [
       "<rootDir>/node_modules/react"
