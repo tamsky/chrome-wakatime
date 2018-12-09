@@ -16,7 +16,10 @@ RUN npm install -g gulp --allow-root
 RUN npm install --allow-root
 RUN bower install --allow-root
 
+# fixes a gulp error
 RUN npm install laravel-elixir-browserify-official --save-dev --allow-root
+
+# fix some warnings
 RUN npm install react@^15.4.2 \
                 react-addons-css-transition-group@15.6.2 \
                 react-dom@16.5.2 \
